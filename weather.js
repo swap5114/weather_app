@@ -1,3 +1,7 @@
+const api_key = "15e1b98d77ebafb33365cbed8a5ac244";
+
+const city = " ";
+
 fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`)
         .then((response) => response.json())
         .then((data) => {
